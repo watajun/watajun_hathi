@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+/* -------------------- header -------------------- */
+
+.page_header {
+    background-color: #2d6399;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    top:0;
+    padding-top: 0px;
+    z-index: 99;
+    align-items: center;
+    position: fixed;
+    justify-content: space-around;
+}
+
+.logo {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #FFF;
+}
+
+.nav_list ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+.nav {
+    padding: auto 100px;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+/* -------------------- body -------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #FFF;
+    font-size: 18px;
+    line-height: 1.5;
+    /* width: 100%; */
+}
+
+/* -------------------- main -------------------- */
+
+.warp {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+}
+
+.main img {
+    height: 500px;
+}
+
+/* -------------------- searche_box -------------------- */
+
+#search_box {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.search_container {
+    text-align: center;
+}
+
+.search_container input[type="text"]{
+    height: 20px;
+    display: flex;
+}
+
+/* -------------------- main_content -------------------- */
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 24px;
+    border-bottom: solid 3px #5472cd;
+    margin: 0px 0px 10px 0px;
+}
+
+.shop-content {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.shop-content p {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.main-deta {
+    display: flex;
+    background-color: #ecf2fb;
+    width: 740px;
+    height: 220px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.main-deta2 {
+padding-bottom: 20px;
+}
+
+.main-deta-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.main-deta2 {
+    display: flex;
+    background-color: #fbf9ec;
+    width: 740px;
+    height: 220px;
+}
+
+#report {
+    width: 150px;
+    height: 200px;
+    padding: 10px 20px 10px 20px;
+    vertical-align: top;
+}
+
+/* -------------------- right-content -------------------- */
+
+.right-content {
+    width: 200px;
+    padding: 0px 20px 0px 20px;
+}
+
+.right-content_img {
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.right-content_img2 {
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.news {
+    border: solid 1px;
+    border-radius: 6px;
+    margin: 0px 0px 30px 0px;
+}
+
+.news h2 {
+    font-size: 24px;
+    border-bottom: solid 3px;
+    margin: 10px opx 20px 0px;
+    text-align: center;
+}
+
+.news ul {
+    list-style: none;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#category {
+    border: solid 1px;
+    border-radius: 6px;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+#category h2 {
+    font-size: 24px;
+    border-bottom: solid 3px;
+    margin: 20px opx 10px 0px;
+}
+
+#category ul {
+    text-align: left;
+    text-decoration: none;
+}
+
+.right-content_img2 {
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+/* -------------------- signup -------------------- */
+.myimg {
+    width: 200px;
+    height: 200px;
+    padding: 20px 0px 0px 0px;
+}
+
+.mypage {
+    text-align: center;
+}
+
+.mypage2 {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.mypage2 p {
+width: 40%;
+border-bottom: 3px solid black; 
+text-align: left;
+padding: 30px 0px 0px 0px;
+}
+
+
+/* -------------------- signup -------------------- */
+.signup_content {
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.signup_title {
+    text-align: center;
+}
+
+.email_label,
+.name_label,
+.password_label {
+    display: block;
+    margin: 10px 0px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="email"]::placeholder,
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #999999;
+}
+
+.button_area {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup_button,
+.login_button {
+    background: #239bed;
+    padding: 15px 0;
+    width: 48%;
+    color: #FFFFFF;
+    letter-spacing: 0.5rem;
+    text-indent: 0.5rem;
+    border-radius: 30px;
+}
+
+.login_page_button,
+.signup_page_button {
+    text-align: center;
+    padding: 15px 0;
+    width: 48%;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+/* -------------------- login -------------------- */
+
+.login_content {
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.login_title {
+    text-align: center;
+}
+
+/* -------------------- shopmypage -------------------- */
+
+.warp {
+    width: 100%;
+    padding-top:100px;
+    text-align: center;
+}
+
+.mypage_title {
+    padding-top:100px;
+    text-align: center;
+    border-bottom: solid 3px #333;
+    width: 60%;
+    margin: auto;
+}
+
+.mypage2 p {
+    margin: 0 auto;
+}
+
+
+/* -------------------- footer -------------------- */
+
+.page_footer {
+    background-color: #2d6399;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.navi {
+    margin-top: 30px;
+    border-right:solid 1px #FFF;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navi:last-of-type {
+    border-right:none;
+    padding-right: 0;
+}
+
+.footer-text {
+    margin: auto;
+    color: #FFF;
+}
